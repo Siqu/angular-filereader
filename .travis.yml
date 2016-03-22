@@ -8,3 +8,5 @@ before_script:
   - 'npm install -g bower karma grunt-cli jshint'
   - 'npm install' # install npm packages
   - 'bower install' # install bower packages
+after_script:
+  - NODE_ENV=cat dist/reports/coverage/report-lcov/lcov.info | node_modules/coveralls/bin/coveralls.js && rm -rf coverage

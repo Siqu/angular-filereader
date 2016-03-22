@@ -41,8 +41,13 @@ module.exports = function (config) {
 		reporters: ['progress', 'coverage'],
 
 		coverageReporter: {
-			type : 'html',
-			dir : 'coverage/'
+			// specify a common output directory
+			dir: 'dist/reports/coverage',
+			reporters: [
+				// reporters not supporting the `file` property
+				{ type: 'html', subdir: 'report-html' },
+				{ type: 'lcov', subdir: 'report-lcov' }
+			]
 		},
 
 		// web server port
