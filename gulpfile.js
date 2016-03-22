@@ -31,8 +31,8 @@ gulp.task('tdd', function(done) {
 gulp.task('concat', function () {
 	return gulp
 		.src([
-			'src/js/angular-filereader.js',
-			'src/js/file-reader.factory.js'
+			'src/js/angular-filereader.module.js',
+			'src/js/services/filereader.service.js'
 		])
 		.pipe(concat('angular-filereader.js'))
 		.pipe(gulp.dest(__dirname + '/dist'));
@@ -41,8 +41,8 @@ gulp.task('concat', function () {
 gulp.task('minify', function() {
 	return gulp
 		.src([
-			'src/js/angular-filereader.js',
-			'src/js/file-reader.factory.js'
+			'src/js/angular-filereader.module.js',
+			'src/js/services/filereader.service.js'
 		])
 		.pipe(minify())
 		.pipe(concat('angular-filereader.min.js'))
