@@ -4,7 +4,7 @@
   "description": "Wrapper for the FileReader API.",
   "main": "./src/angular-filereader.js",
   "scripts": {
-    "test": "gulp karma"
+    "test": "gulp test"
   },
   "repository": {
     "type": "git",
