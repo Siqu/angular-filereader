@@ -1,0 +1,23 @@
+{
+  "name": "angular-filereader",
+  "version": "0.0.0",
+  "description": "Wrapper for the FileReader API.",
+  "main": "./src/angular-filereader.js",
+  "scripts": {
+    "test": "gulp karma"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Siqu/angular-filereader.git"
+  },
+  "keywords": [
+    "angular",
+    "FileReader"
+  ],
+  "author": "Sebastian Paulmichl <siquent@me.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Siqu/angular-filereader/issues"
+  },
+  "homepage": "https://github.com/Siqu/angular-filereader"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "angular-filereader",
+  "homepage": "https://github.com/Siqu/angular-filereader",
+  "authors": [
+    "Sebastian Paulmichl <siquent@me.com>"
+  ],
+  "description": "Wrapper for the FileReader API.",
+  "main": "./dist/angular-filereader.min.js",
+  "moduleType": [
+    "angular"
+  ],
+  "keywords": [
+    "angular",
+    "FileReader"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.5.2"
+  },
+  "devDependencies": {
+    "angular-mocks": "^1.5.2"
+  }
+}
