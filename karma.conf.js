@@ -15,8 +15,12 @@ module.exports = function (config) {
 
 		// list of files / patterns to load in the browser
 		files: [
-			'src/js/angular-filereader.js',
-			'tests/js/angular-filereaderSpec.js'
+			'bower_components/angular/angular.js',
+			'bower_components/angular-mocks/angular-mocks.js',
+			'src/js/angular-filereader.module.js',
+			'src/js/services/filereader.service.js',
+			'tests/js/angular-filereader.module.spec.js',
+			'tests/js/services/filereader.service.spec.js'
 		],
 
 

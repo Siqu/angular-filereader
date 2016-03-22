@@ -54,8 +54,21 @@
 	"browser": true,
 	"node": true,
 
-	"globals": {
-		"angular": false,
-		"$": false
-	}
+	"predef": [
+		"jasmine",
+		"describe",
+		"xdescribe",
+		"before",
+		"beforeEach",
+		"after",
+		"afterEach",
+		"it",
+		"xit",
+		"it",
+		"inject",
+		"expect",
+		"spyOn",
+		"angular",
+		"$"
+	]
 }
